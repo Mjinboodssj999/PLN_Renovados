@@ -1,0 +1,208 @@
+.bg-myRed {
+  background-color: crimson;
+}
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.content {
+  padding: 12px;
+  height: 3000px;
+}
+.cont {
+  width: 200px;
+  height: 90vh;
+  position: relative;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  background: #d6dad7;
+}
+.cabe {
+  background: url("../src/cabe.JPG");
+  background-size: 300px 40px;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  display: flex;
+}
+.coloring {
+  color: black;
+}
+.inputSearch {
+  border-radius: 20px;
+  width: 70%;
+  border-style: none;
+  background: #d6dad7;
+  float: right;
+}
+.iconoSearch {
+  width: 30px;
+  height: 30px;
+}
+.iconoSearch:hover {
+  width: 35px;
+  height: 35px;
+
+  border-radius: 20px;
+}
+.Introduccion {
+  background: #d6dad7;
+  height: 100%;
+  position: absolute; /*El div será ubicado con relación a la pantalla*/
+  left: 0px; /*A la derecha deje un espacio de 0px*/
+  right: 0px; /*A la izquierda deje un espacio de 0px*/
+  padding-top: 10%;
+  bottom: 85px;
+}
+.IntroduccionP {
+  background: #d6dad7;
+  position: absolute; /*El div será ubicado con relación a la pantalla*/
+  left: 0px; /*A la derecha deje un espacio de 0px*/
+  right: 0px; /*A la izquierda deje un espacio de 0px*/
+  padding-top: 1%;
+  height: 79.5vh;
+  bottom: 85px;
+}
+.Fotos {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  width: 20rem;
+  margin: 0 auto;
+}
+.back {
+  background: #d6dad7;
+  border-radius: 7px;
+  padding: 0.5%;
+}
+.altura {
+  background: #d6dad7;
+  height: 600px;
+  padding: 2%;
+}
+.tableScroll {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  margin-top: 0%;
+  width: 100%;
+  border-radius: 10px;
+}
+.scroll {
+  display: block;
+}
+.slide {
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #383e5f;
+}
+
+.next {
+  right: 2%;
+  top: 50%;
+}
+
+.prev {
+  left: 2%;
+  top: 50%;
+}
+.links {
+  color: white;
+}
+.links:hover {
+  color: grey;
+}
+.footer {
+  height: 85px;
+  color: white;
+  position: absolute; /*El div será ubicado con relación a la pantalla*/
+  left: 0px; /*A la derecha deje un espacio de 0px*/
+  right: 0px; /*A la izquierda deje un espacio de 0px*/
+  bottom: 0px;
+  background: #383e5f;
+  padding: 1% 1% 0% 1%;
+}
+.al {
+  height: 85px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+span {
+  color: white;
+}
+.topTransparencia {
+  padding: 2%;
+}
+.colorT {
+  background: #383e5f;
+  border-radius: 50px;
+  margin-left: 30%;
+  width: 45%;
+  margin-top: 0.5%;
+}
+.side:hover {
+  background: grey;
+  border-radius: 50px;
+}
+.nube {
+  margin-left: 15%;
+  margin-top: 1.5%;
+  width: 550px;
+  height: 550px;
+  border-radius: 20px;
+}
+.cardNube {
+  background: #d6dad7;
+  border-radius: 10px;
+  width: 95%;
+  padding: 0.5%;
+  padding-bottom: 30px;
+}
+.contText {
+  height: 500px;
+  margin-top: 2%;
+}
+.logoIcon {
+  width: 25px;
+  height: 25px;
+}
+.lblcarousel {
+  background: black;
+  opacity: 0.8;
+  border-radius: 50px;
+  padding: 1%;
+}
+.colorG {
+  background: #383e5f;
+}
+.backMain {
+  background: #d6dad7;
+}
