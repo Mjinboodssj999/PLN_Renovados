@@ -8,8 +8,7 @@
 #### Docente:
 - **Quintanilla Portugal Roxana Lisette** - _Docente_ - [Concytec](http://directorio.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=40930).
 
-#### Proyecto: “Sistema de Tutorías para la Escuela Profesional de Ingeniería Informática y de 
-Sistemas”
+#### Proyecto: “Análisis automatizado de proyectos de ley del gobierno peruano utilizando NLP”
 #### Integrantes 🤓:
 - **Ronaldinho Vega Centeno Olivera** - _GitHub Account_ - [DinhoVCO](https://github.com/DinhoVCO)
 - **Sarco Jacinto Daniel Eduardo** - GitHub Account - [Mjinboodssj999](https://github.com/Mjinboodssj999)
