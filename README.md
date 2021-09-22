@@ -13,3 +13,4 @@
 - **Ronaldinho Vega Centeno Olivera** - _GitHub Account_ - [DinhoVCO](https://github.com/DinhoVCO)
 - **Sarco Jacinto Daniel Eduardo** - GitHub Account - [Mjinboodssj999](https://github.com/Mjinboodssj999)
 - **Espejo Franco Melissa Briggitte** - _GitHub Account_ - [melissaespejo](https://github.com/melissaespejo)
+- **Condori Lopez Juan Carlos**- _GitHub Account_ - [juancarlos170429](https://github.com/juancarlos170429)
