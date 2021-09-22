@@ -5,7 +5,7 @@ import { Nav, Navbar} from 'react-bootstrap'
 import Barra from '../components/Barra'
 import {Col,Row} from 'react-bootstrap'
 import * as ImIcons from "react-icons/im"
-import * as FcIcons from "react-icons/fc"
+
 import {Modal,ModalBody,ModalFooter,ModalHeader} from 'reactstrap'
 
 import anio2016 from '../anio2016.json'
@@ -64,7 +64,7 @@ const Transparencia = (props) => {
                 <Navbar.Collapse>
                 <Nav>
                     <Nav.Link href="#grafica" className="text-white side">  Nube</Nav.Link>
-                    <Nav.Link href="#gif" className="text-white side"> no se </Nav.Link>
+                    <Nav.Link href="#gif" className="text-white side">      Relacion </Nav.Link>
                     <Nav.Link href="#slider1" className="text-white side">  año 2016 </Nav.Link>
                     <Nav.Link href="#slider2" className="text-white side">  año 2017 </Nav.Link>
                     <Nav.Link href="#slider3" className="text-white side">  año 2018 </Nav.Link>
@@ -81,16 +81,16 @@ const Transparencia = (props) => {
                     <Row>
                         <Col className="col-5 ml-5">
                             <Row >
-                                <h3 className="text-secondary"> Nube de palabras</h3>
+                                <h3 className="text-secondary mt-4"> Nube de palabras</h3>
                             </Row>
                             <Row>
                                 <div className="bg-light p-5 contText rounded">
                                 <p>
-                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti 
-                                quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                                 officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita 
-                                distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
-                                placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam 
+                                Esta imange es representación visual de las palabras que conforman un texto,
+                                en donde el tamaño es mayor para las palabras que aparecen con más frecuencia.
+                                En esta nube de palabras podemos ver todo lo relacionado con los proyectos de ley 
+                                , en la cual podemos notar que resalta la palabra TRANSPARENCIA , para fianlmente
+                                poder usar esta informacion para el filtrado de leyes que cumpla esta caracteristica.
                                 </p>
                                 <hr />
                                 <b className="small text-primary">nube de palabras</b>
@@ -119,19 +119,16 @@ const Transparencia = (props) => {
                         </Col>
                         <Col className="col-5 ml-5">
                             <Row >
-                                <h3 className="text-secondary"> gif</h3>
+                                <h3 className="text-secondary mt-4">Relacion de congresistas con las leyes</h3>
                             </Row>
                             <Row>
                                 <div className="bg-light p-5 contText rounded">
                                 <p>
-                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti 
-                                quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                                 officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita 
-                                distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
-                                placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam 
+                                    Para cada ley muestra los congresistas para esto se uso la herramienta de gephi
+                                    y esto tiene finalidad encontrar relaciones entre puntos                                
                                 </p>
                                 <hr />
-                                <b className="small text-primary">nube de palabras</b>
+                                <b className="small text-primary">Relacion</b>
                                 </div>
                             </Row>
                         </Col>

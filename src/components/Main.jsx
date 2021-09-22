@@ -18,17 +18,10 @@ function Main() {
               <img
                 className="d-block h-100 w-100"
               
-                src="../congreso2.png"
+                src="../fond.jpeg"
                 alt="First slide"
               />
-              <Carousel.Caption>
-              <div className="lblcarousel">
-                <h3>Second slide label</h3>
-                  ddddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                  aaaaaaaaaaaaaaaaaaaaaaaaaa sit amet, consectetur adipiscing elit.
-                </div>
-              </Carousel.Caption>
+             
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -38,16 +31,6 @@ function Main() {
                 alt="Second slide"
               />
 
-              <Carousel.Caption>
-                
-                <div className="lblcarousel">
-                <h3>Second slide label</h3>
-                  ddddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                  aaaaaaaaaaaaaaaaaaaaaaaaaa sit amet, consectetur adipiscing elit.
-                </div>
-                
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -56,14 +39,7 @@ function Main() {
                 alt="Third slide"
               />
 
-              <Carousel.Caption>
-              <div className="lblcarousel">
-                <h3>Second slide label</h3>
-                  ddddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                  aaaaaaaaaaaaaaaaaaaaaaaaaa sit amet, consectetur adipiscing elit.
-                </div>
-              </Carousel.Caption>
+           
             </Carousel.Item>
           </Carousel> 
        </div>
@@ -75,14 +51,14 @@ function Main() {
                   <div>
                     <img className="logoIcon d-inline" src="./logoU.png" alt="" />
                     
-                    <h6 className="d-inline"> Universidad Nacional de San Antonio Abad del Cusco</h6>
+                    <h6 className="d-inline"> <a className="links" href="http://www.unsaac.edu.pe/" rel="noopener noreferrer" target="_blank"> Universidad Nacional de San Antonio Abad del Cusco</a></h6>
           
                   </div>
 
                   <div>
                     <img className="logoIcon d-inline" src="./logoInfo.png" alt="" />
                     
-                    <h6 className="d-inline"> Ingenieria informatica y de sistemas</h6>
+                    <h6 className="d-inline"> <a className="links" href="http://in.unsaac.edu.pe/home/" rel="noopener noreferrer" target="_blank">Ingenieria informatica y de sistemas</a></h6>
           
                   </div>
                  
@@ -93,7 +69,7 @@ function Main() {
                   
                 </Col>
                 <Col className="col-4">
-                  <p class="mb-0"><AiIcons.AiFillGithub/>{" "}  <a className="links" href="https://github.com/Mjinboodssj999/PLN_Renovados" target="_blank"> nuestro Github</a></p>
+                  <p class="mb-0"><AiIcons.AiFillGithub/>{" "}  <a className="links" href="https://github.com/Mjinboodssj999/PLN_Renovados"  rel="noopener noreferrer" target="_blank"> nuestro Github</a></p>
                   <p class=""><small class="text-white-50">© 2021. All Rights Reserved.</small></p>
                 </Col>
           
