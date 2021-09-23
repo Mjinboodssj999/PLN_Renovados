@@ -1,4 +1,8 @@
 # PLN_Renovados
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt text](/relative/path/to/T.jpg?raw=true "Transparencia")
+
+
 # **<center>Procesamiento del Lenguaje Natural</center>**
 
 - **Institucion:** Universidad Nacional de San Antonio Abad del Cusco
