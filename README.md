@@ -1,6 +1,5 @@
 # PLN_Renovados
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-![Alt text](T.gif?raw=true "Transparencia")
+![20210923_111923](https://user-images.githubusercontent.com/86624726/134545644-02cce131-d725-4f5e-bb97-84c11d0888ad.gif"Transparencia")
 
 
 # **<center>Procesamiento del Lenguaje Natural</center>**
