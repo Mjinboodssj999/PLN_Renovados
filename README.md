@@ -10,6 +10,7 @@
 
 #### Proyecto: “Análisis automatizado de proyectos de ley del gobierno peruano utilizando NLP”
 #### Integrantes 🤓:
+- **Calderón Tintaya Fallchja Xiomara** - _GitHub Account_ - [FallchaXCT](https://github.com/FallchaXCT)
 - **Ronaldinho Vega Centeno Olivera** - _GitHub Account_ - [DinhoVCO](https://github.com/DinhoVCO)
 - **Sarco Jacinto Daniel Eduardo** - GitHub Account - [Mjinboodssj999](https://github.com/Mjinboodssj999)
 - **Espejo Franco Melissa Briggitte** - _GitHub Account_ - [melissaespejo](https://github.com/melissaespejo)
