@@ -65,6 +65,8 @@ const Transparencia = (props) => {
                 <Nav>
                     <Nav.Link href="#grafica" className="text-white side">  Nube</Nav.Link>
                     <Nav.Link href="#gif" className="text-white side">      Relacion </Nav.Link>
+                    <Nav.Link href="#grafica1" className="text-white side">      Analisis </Nav.Link>
+                    <Nav.Link href="#grafica2" className="text-white side">      Analisis LDA </Nav.Link>
                     <Nav.Link href="#slider1" className="text-white side">  año 2016 </Nav.Link>
                     <Nav.Link href="#slider2" className="text-white side">  año 2017 </Nav.Link>
                     <Nav.Link href="#slider3" className="text-white side">  año 2018 </Nav.Link>
@@ -86,7 +88,7 @@ const Transparencia = (props) => {
                             <Row>
                                 <div className="bg-light p-5 contText rounded">
                                 <p>
-                                Esta imange es representación visual de las palabras que conforman un texto,
+                                Esta imagen es representación visual de las palabras que conforman un texto,
                                 en donde el tamaño es mayor para las palabras que aparecen con más frecuencia.
                                 En esta nube de palabras podemos ver todo lo relacionado con los proyectos de ley 
                                 , en la cual podemos notar que resalta la palabra TRANSPARENCIA , para fianlmente
@@ -129,6 +131,63 @@ const Transparencia = (props) => {
                                 </p>
                                 <hr />
                                 <b className="small text-primary">Relacion</b>
+                                </div>
+                            </Row>
+                        </Col>
+                        
+                      
+                    </Row>
+                    
+                    
+                </div>
+            </div>
+            <div id="grafica1"className="container-fluid bg-secondary p-4 ">
+                <div className="cardNube mx-auto">
+                    <Row>
+                        <Col className="col-5 ml-5">
+                            <Row >
+                                <h3 className="text-secondary mt-4"> Analisis</h3>
+                            </Row>
+                            <Row>
+                                <div className="bg-light p-5 contText rounded">
+                                <p>
+                                    cantidad de leyes por partido politico al año
+                                </p>
+                                <hr />
+                                <b className="small text-primary">analisis</b>
+                                </div>
+                            </Row>
+                        </Col>
+                        <Col  className="col-6">
+                        <div className="contNube h-100">
+                            <img className="nube"src="./grafica1.jpeg" alt="" />
+                        </div>
+                        </Col>
+                      
+                    </Row>
+                    
+                    
+                </div>
+            </div>
+            <div id="grafica2"className="container-fluid  p-4 colorG">
+                <div className="cardNube mx-auto">
+                    <Row>
+                    <Col  className="col-6">
+                        <div className="contNube h-100">
+                            <img className="nube"src="./grafica2.jpeg" alt="" />
+                        </div>
+                        </Col>
+                        <Col className="col-5 ml-5">
+                            <Row >
+                                <h3 className="text-secondary mt-4">Analisis LDA </h3>
+                            </Row>
+                            <Row>
+                                <div className="bg-light p-5 contText rounded">
+                                <p>
+                                se hizo el análisis LDA de nuestro corpus, hallando 6 topicos     
+                                </p>
+                                <hr />
+                                <b className="small text-primary">analisis LDA</b>
                                 </div>
                             </Row>
                         </Col>
