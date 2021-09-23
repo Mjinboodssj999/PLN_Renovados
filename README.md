@@ -1,4 +1,4 @@
-# PLN_Renovados
+# PLN_Transparencia
 ![20210923_111923](https://user-images.githubusercontent.com/86624726/134546372-10b71031-401d-4ff9-bea4-4ccbc0462188.gif)
 
 # **<center>Procesamiento del Lenguaje Natural</center>**
